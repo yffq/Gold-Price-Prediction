@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+
+# Local media files (video, audio, frames - keep local only)
+local_media/
+
+# Claude Code local files (keep skills and commands public)
+.claude/*
+!.claude/skills/
+!.claude/commands/
+
+# Environment variables
+.env*
+
+# Logs
+*.log
